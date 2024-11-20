@@ -1,35 +1,35 @@
 # GoalStar
 
-![GoalStar Logo](https://via.placeholder.com/150) <!-- Substitua pelo link do logo do projeto -->
+![GoalStar Logo](https://via.placeholder.com/150)
 
-## 📋 Descrição
+## 📋 Description
 
-**GoalStar** é um aplicativo para gerenciar metas pessoais e profissionais, ajudando os usuários a acompanhar seu progresso e atingir seus objetivos de forma organizada e eficiente.
+**GoalStar** is an application designed to help manage personal and professional goals, enabling users to track their progress and achieve objectives efficiently and effectively.
 
-## 🎯 Objetivo
+## 🎯 Purpose
 
-O objetivo do **GoalStar** é proporcionar uma experiência intuitiva e funcional para a gestão de metas, permitindo que os usuários:
+The purpose of **GoalStar** is to provide an intuitive and functional experience for goal management, allowing users to:
 
-- Definam metas claras.
-- Acompanhem o progresso de cada meta.
-- Recebam insights e lembretes para manter a motivação.
+- Define clear goals.
+- Track the progress of each goal.
+- Receive insights and reminders to stay motivated.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-Este projeto é desenvolvido como um **monorepo**, contendo tanto o front-end quanto o back-end:
+This project is structured as a **monorepo**, containing both the front-end and back-end components:
 
 ### Front-end
-- **[Next.js](https://nextjs.org/):** Framework React para renderização no lado do servidor (SSR) e rotas estáticas.
-- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS utilitário para estilização.
-- **[TypeScript](https://www.typescriptlang.org/):** Superset do JavaScript que adiciona tipagem estática.
+- **[Next.js](https://nextjs.org/):** React framework for static site generation and application building.
+- **[Tailwind CSS](https://tailwindcss.com/):** Utility-first CSS framework for styling.
+- **[TypeScript](https://www.typescriptlang.org/):** A superset of JavaScript with static typing.
 
 ### Back-end
-- **[C#](https://learn.microsoft.com/en-us/dotnet/csharp/):** Linguagem de programação para desenvolvimento robusto.
-- **[.NET 8](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8):** Framework para construir APIs modernas e performáticas.
+- **[C#](https://learn.microsoft.com/en-us/dotnet/csharp/):** Programming language for building robust applications.
+- **[.NET 8](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8):** Framework for building modern and high-performance APIs.
 
-## 📂 Estrutura do Monorepo
+## 📂 Monorepo Structure
 
 ```plaintext
 GoalStar/
-├── frontend/       # Código do aplicativo de front-end (Next.js)
-└── backend/        # Código do back-end (C# .NET 8)
+├── frontend/       # Front-end application code (Next.js)
+└── backend/        # Back-end application code (C# .NET 8)
